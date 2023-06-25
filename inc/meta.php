@@ -1,7 +1,7 @@
 <head>
 <title><?php echo $video_title; ?></title>
 <meta charset="utf-8">
-<meta name="robots" content="noindex, follow">	
+<meta name="robots" content="index, follow">	
 <meta name="googlebot" content="all" />
 <meta name="googlebot-news" content="index,follow" />
 <meta name="googlebot-image" content="index,follow" />
@@ -46,12 +46,18 @@
 <link rel="dns-prefetch" href="https://www.otogadget.id" />
 <link rel="preconnect" href="https://ajax.googleapis.com">
 <link rel="dns-prefetch" href="https://ajax.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com/">
+<link rel="dns-prefetch" href="https://fonts.gstatic.com/"/>
 <link href="img/favicon.ico?<?php echo $anticache; ?>" rel="icon" type="image/ico" />
 
 <link rel="preload" href="fonts/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqw16WXh0pg.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="css/rancak.css?<?php echo $anticache; ?>" as="style">
 <link rel="preload" as="script" href="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+
+<link rel="preload" as="script" href="https://www.youtube.com/s/player/b7910ca8/www-embed-player.vflset/www-embed-player.js">
+<link rel="preload" as="script" href="https://www.youtube.com/s/player/b7910ca8/player_ias.vflset/en_US/base.js">
+<link rel="preload" as="style" href="https://www.youtube.com/s/player/b7910ca8/www-player.css">
 
 <style><?php require ($_SERVER['OG'].'css/font.css')?></style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

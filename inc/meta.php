@@ -50,14 +50,16 @@
 <link rel="dns-prefetch" href="https://fonts.gstatic.com/"/>
 <link href="img/favicon.ico?<?php echo $anticache; ?>" rel="icon" type="image/ico" />
 
-<link rel="preload" href="fonts/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqw16WXh0pg.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="fonts/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="css/rancak.css?<?php echo $anticache; ?>" as="style">
+<link rel="preload" as="font" href="fonts/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqw16WXh0pg.woff2" type="font/woff2" crossorigin>
+<link rel="preload" as="font" href="fonts/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2" type="font/woff2" crossorigin>
+<link rel="preload" as="style" href="css/rancak.css?<?php echo $anticache; ?>">
 <link rel="preload" as="script" href="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+<link rel="preload" as="script" href="https://www.googletagmanager.com/gtag/js?id=G-RB7L10PMTL">
 
 <link rel="preload" as="script" href="https://www.youtube.com/s/player/b7910ca8/www-embed-player.vflset/www-embed-player.js">
 <link rel="preload" as="script" href="https://www.youtube.com/s/player/b7910ca8/player_ias.vflset/en_US/base.js">
 <link rel="preload" as="style" href="https://www.youtube.com/s/player/b7910ca8/www-player.css">
+<link rel="preload" as="document" href="https://www.youtube.com/embed/dQw4w9WgXcQ">
 
 <style><?php require ($_SERVER['OG'].'css/font.css')?></style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -74,12 +76,13 @@ $("body,html").bind("touchstart touchmove scroll mousedown DOMMouseScroll mousew
 <link rel="stylesheet" type="text/css" href="css/rancak.css?<?php echo $anticache; ?>"/>
 </head>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FRRHFE09BY"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RB7L10PMTL"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-FRRHFE09BY');
+  gtag('config', 'G-RB7L10PMTL');
 </script>
 
 <body>

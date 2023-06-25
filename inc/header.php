@@ -1,5 +1,5 @@
 <header>
-  <a aria-label="Logo" title="Logo" class="header-link logo-link content_center" href="">
+  <a aria-label="Logo" title="Logo" class="header-link logo-link content_center" href="/">
     <?php require ($_SERVER['OG'].'img/logo.svg')?>
   </a>
   <div class="header-list">

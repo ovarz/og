@@ -16,6 +16,7 @@
   --title-fontsize:16px;
   --menu-width:210px;
   --bg-1:#1A1A1A;
+  --sidebar-width:300px;
 }
 
 
@@ -52,8 +53,35 @@ header:after{content:''; display:block; position:absolute; bottom:0; left:0; wid
 
 
 
-.rancak-container{position:relative; line-height:0;}
-.rancak-player-full{position:relative; width:100%; height:calc(100vh - var(--size-6));}
+.rancak-container{display:grid; min-height:calc(100vh - var(--size-6));}
+
+
+
+.rancak-content-box{position:relative;}
+.rancak-content-box:before{content:''; display:block; padding-top:56.25%;}
+.rancak-player{position:absolute; top:0; left:0;  width:100%; height:100%;}
+
+
+
+.rancak-sidebar{display:grid; grid-gap:var(--size-5); padding:var(--size-4) 0;}
+
+.rancak-info{padding:0 var(--size-4); display:grid;}
+.rancak-title, .rancak-related-title{font-weight:bold; font-size:var(--size-4); margin-bottom:var(--size-3);}
+.rancak-desc, .rrl-title{line-height:150%; overflow:hidden; display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:3;}
+.rancak-more{display:flex; align-items:center; margin-top:var(--size-1);}
+.rancak-more .svgicon{width:auto; height:13px; margin-left:var(--size-3);}
+
+.rancak-instagram-box{position:relative; width:100%;}
+.rancak-instagram-box:before{padding-top:calc(66.66% + 160px);}
+.rancak-instagram-box iframe{position:absolute; top:0; left:0; width:100%; height:100%;}
+
+.rancak-related{padding:0 var(--size-4);}
+.rancak-related-list{display:grid; grid-gap:var(--size-1);}
+.rrl-link{display:grid; grid-template-columns:76px 1fr; align-items:center;}
+.rrl-thumb:before{padding-top:100%;}
+.rrl-info{display:grid; grid-gap:var(--size-3); grid-auto-rows:min-content; padding:var(--size-2) var(--size-3);}
+.rrl-title{font-weight:bold; line-height:140%;}
+
 
 
 
@@ -61,11 +89,25 @@ header:after{content:''; display:block; position:absolute; bottom:0; left:0; wid
 @media screen and (min-width:0px) and (max-width:1023px){
   .desktop-only{display:none !important; visibility:hidden; content-visibility:hidden;}
   .desktop-only iframe[loading=lazy]{content-visibility:hidden !important;}
+  .rancak-content{}
+  
+  @media screen and (orientation:portrait){
+    .rancak-content{position:sticky; z-index:calc(var(--max-zindex) - 3000); top:var(--size-6);}
+  }
   
   @media screen and (orientation:landscape){
     header{position:fixed; z-index:1; top:0; left:0; width:100%;}
-	.rancak-player-full{z-index:1000; height:100vh;}
+	
+	.rancak-content{position:relative; z-index:calc(var(--max-zindex) - 1000); top:0;}
   }
+}
+
+
+
+
+
+@media screen and (min-width:568px) and (max-width:1023px){
+  .rancak-instagram-box:before{padding-top:calc(66.66% + 200px);}
 }
 
 
@@ -75,4 +117,10 @@ header:after{content:''; display:block; position:absolute; bottom:0; left:0; wid
 @media screen and (min-width:1024px){
   .mobile-only{display:none !important; visibility:hidden; content-visibility:hidden;}
   .mobile-only iframe[loading=lazy]{content-visibility:hidden !important;}
+  
+  .rancak-container{grid-template-columns:1fr 300px;}
+  
+  .rancak-content-box{position:sticky; z-index:1; top:var(--size-6); height:100%; max-height:calc(100vh - var(--size-6));}
+  
+  .rancak-sidebar{padding:0; grid-auto-rows:min-content;}
 }

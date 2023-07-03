@@ -40,6 +40,12 @@
           </a>
         <?php } ?>
 	  </div>
+	  <div class="rancak-related-more">
+	    <a aria-label="Video Lainnya" title="Video Lainnya" class="rrl-more" target="_blank" href="https://www.youtube.com/@otogadget/videos">
+		  <span>Video Lainnya</span>
+          <?php require ($_SERVER['OG'].'img/icon/right-double.svg')?>
+		</a>
+	  </div>
 	</section>	
   </div>
 </div>

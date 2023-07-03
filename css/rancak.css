@@ -68,8 +68,8 @@ header:after{content:''; display:block; position:absolute; bottom:0; left:0; wid
 .rancak-info{padding:0 var(--size-4); display:grid;}
 .rancak-title, .rancak-related-title{font-weight:bold; font-size:var(--size-4); margin-bottom:var(--size-3);}
 .rancak-desc, .rrl-title{line-height:150%; overflow:hidden; display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:3;}
-.rancak-more{display:flex; align-items:center; margin-top:var(--size-1);}
-.rancak-more .svgicon{width:auto; height:13px; margin-left:var(--size-3);}
+.rancak-more, .rrl-more{display:flex; align-items:center; margin-top:var(--size-1);}
+.rancak-more .svgicon, .rrl-more .svgicon{width:auto; height:12px; margin-left:var(--size-1);}
 
 .rancak-instagram-box{position:relative; width:100%;}
 .rancak-instagram-box:before{padding-top:calc(66.66% + 160px);}
@@ -81,6 +81,7 @@ header:after{content:''; display:block; position:absolute; bottom:0; left:0; wid
 .rrl-thumb:before{padding-top:100%;}
 .rrl-info{display:grid; grid-gap:var(--size-3); grid-auto-rows:min-content; padding:var(--size-2) var(--size-3);}
 .rrl-title{font-weight:bold; line-height:140%;}
+.rrl-more{margin-top:var(--size-2);}
 
 
 

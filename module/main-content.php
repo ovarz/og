@@ -1,7 +1,7 @@
 <div class="rancak-container">
   <div class="rancak-content">
     <section class="rancak-content-box">
-	  <iframe width="560" height="315" class="rancak-player" src="https://www.youtube.com/embed/1yS9nfx3MkI?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+	  <iframe width="560" height="315" class="rancak-player" src="https://www.youtube.com/embed/<?php echo $video_content; ?>?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 	</section>
   </div>
   

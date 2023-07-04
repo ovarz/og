@@ -48,6 +48,8 @@
 <link rel="dns-prefetch" href="https://ajax.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com/">
 <link rel="dns-prefetch" href="https://fonts.gstatic.com/"/>
+<link rel="preconnect" href="https://www.youtube.com/">
+<link rel="dns-prefetch" href="https://www.youtube.com/"/>
 <link href="img/favicon.ico?<?php echo $anticache; ?>" rel="icon" type="image/ico"/>
 
 <link rel="preload" as="font" href="fonts/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqw16WXh0pg.woff2" type="font/woff2" crossorigin>
@@ -56,10 +58,9 @@
 <link rel="preload" as="script" href="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
 <link rel="preload" as="script" href="https://www.googletagmanager.com/gtag/js?id=G-RB7L10PMTL">
 
-<link rel="preload" as="script" href="https://www.youtube.com/s/player/b7910ca8/www-embed-player.vflset/www-embed-player.js">
-<link rel="preload" as="script" href="https://www.youtube.com/s/player/b7910ca8/player_ias.vflset/en_US/base.js">
+<link rel="preload" as="script" href="https://www.youtube.com/s/player/23604418/www-embed-player.vflset/www-embed-player.js">
+<link rel="preload" as="script" href="https://www.youtube.com/s/player/23604418/player_ias.vflset/en_US/base.js">
 <link rel="preload" as="style" href="https://www.youtube.com/s/player/b7910ca8/www-player.css">
-<link rel="preload" as="document" href="https://www.youtube.com/embed/dQw4w9WgXcQ">
 
 <style><?php require ($_SERVER['OG'].'css/font.css')?></style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

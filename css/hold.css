@@ -5,9 +5,8 @@
   --color-border-light:255 255 255;
   --color-default-1:#616161; 
   --color-default-2:#212121;
-  --color-default-3:#A9CEC2;
-  --color-default-4:#697F85; 
-  --color-default-5:#E0E0E0; 
+  --color-default-3:#D4A418;
+  --color-border:#E0E0E0; 
   --color-fb:#1877f2;
   --color-tw:#00acec;
   --color-wa:#2bb240;
@@ -31,11 +30,11 @@ a, .btn, button{transition:var(--transition-default); cursor:pointer}
 a, button{color:var(--color-default-2); fill:var(--color-default-2);}
 a:hover, button:hover{color:var(--color-default-3); fill:var(--color-default-3);}
 .btn, a.btn, button.btn{background-color:var(--color-default-3); color:var(--bg-1); fill:var(--bg-1); border-radius:var(--rounded-3);}
-.btn:hover, a.btn:hover, button.btn:hover{background-color:var(--color-default-4);}
+.btn:hover, a.btn:hover, button.btn:hover{background-color:var(--color-default-3);}
 #btt{position:fixed; bottom:calc(var(--size-6) + var(--size-4)); right:0; cursor:pointer;
 z-index:calc(var(--max-zindex) - 4000); width:40px; height:40px; background-color:var(--color-default-3); fill:var(--bg-2);
 border-top-left-radius:var(--rounded-2); border-bottom-left-radius:var(--rounded-2);}
-#btt:hover, #btt:focus{background-color:var(--color-default-4);}
+#btt:hover, #btt:focus{background-color:var(--color-default-3);}
 .flex_ori > img{opacity:0; transition:all 300ms;}
 .flex_ori > img.lazyloaded{opacity:1;}
 .thumb-loading:before{animation:skeleton-loading 0.5s linear infinite alternate; background-color:var(--color-default-1);}
@@ -44,19 +43,18 @@ border-top-left-radius:var(--rounded-2); border-bottom-left-radius:var(--rounded
 
 
 
-.svi-share-fb{fill:var(--color-fb);}
-.svi-share-tw{fill:var(--color-tw);}
-.svi-share-wa{fill:var(--color-wa);}
-.svi-share-tg{fill:var(--color-tg);}
+.header-list .header-link:hover{opacity:0.55;}
 
 
 
 .rancak-title, .rancak-related-title{color:var(--color-default-2);}
+.rancak-more, .rrl-more{color:var(--color-default-3); fill:var(--color-default-3);}
+.rancak-more:hover, .rrl-more:hover{color:var(--color-default-2); fill:var(--color-default-2);}
 
 
 
-.rrl-link{background-color:var(--bg-1); color:var(--color-default-2) !important; border-radius:var(--rounded-1); border-color:var(--color-default-5); overflow:hidden;}
-.rrl-link:hover{background-color:var(--color-default-5);}
+.rrl-link{background-color:var(--bg-1); color:var(--color-default-2) !important; border-radius:var(--rounded-2); border-color:var(--color-border); overflow:hidden;}
+.rrl-link:hover{background-color:var(--color-border);}
 
 
 

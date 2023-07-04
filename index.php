@@ -1,6 +1,6 @@
 <?php require ('inc/base.php')?>
 <?php 
-  $video_content=''; 
+  $video_content='1yS9nfx3MkI'; 
   $video_title='Keeway V250Fi Custom Bobber Yang Kekar !'; 
   $video_desc='Hi OG Friends, Kali ini kita dapat kesempatan bahas Motor Keeway V 250 Fi yang telah dimodifikasi menjadi sebuah motor custom Bobber oleh bengkel modifikasi Primo 116 Garage. Keeway Motors sebuah brand Motorcycle dari Hongaria dan kini telah bernaung dibawah bendera QJ Motors (satu atap dengan Benelli).';
   $video_link='https://youtu.be/1yS9nfx3MkI'; 

@@ -15,7 +15,8 @@
   --default-fontsize:14px;
   --title-fontsize:16px;
   --menu-width:210px;
-  --bg-1:#1A1A1A;
+  --bg-menu:#1A1A1A;
+  --bg-1:#FFFFFF;
   --sidebar-width:300px;
 }
 
@@ -40,7 +41,7 @@ display:flex; text-align:center; align-items:center; justify-content:center;}
 
 
 
-header{position:sticky; z-index:calc(var(--max-zindex) - 2000); top:0; background-color:var(--bg-1); display:flex; justify-content:space-between;}
+header{position:sticky; z-index:calc(var(--max-zindex) - 2000); top:0; background-color:var(--bg-menu); display:flex; justify-content:space-between;}
 header:after{content:''; display:block; position:absolute; bottom:0; left:0; width:100%; height:1px;}
 
 .header-list{display:flex;}
@@ -48,7 +49,7 @@ header:after{content:''; display:block; position:absolute; bottom:0; left:0; wid
 .header-link:last-child{padding-right:var(--size-4);}
 .header-link .svgicon{width:auto; height:var(--size-4);}
 
-.logo-link{height:var(--size-6); padding-left:var(--size-4);}
+.logo-link{height:var(--size-6); padding-left:var(--size-4); fill:var(--bg-1);}
 .logo-link .logo{width:auto; height:var(--size-4);}
 
 
@@ -68,16 +69,18 @@ header:after{content:''; display:block; position:absolute; bottom:0; left:0; wid
 .rancak-info{padding:0 var(--size-4); display:grid;}
 .rancak-title, .rancak-related-title{font-weight:bold; font-size:var(--size-4); margin-bottom:var(--size-3);}
 .rancak-desc, .rrl-title{line-height:150%; overflow:hidden; display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:3;}
-.rancak-more, .rrl-more{display:flex; align-items:center; margin-top:var(--size-1);}
+.rancak-more, .rrl-more{display:flex; align-items:center; margin-top:var(--size-1); font-weight:bold;}
 .rancak-more .svgicon, .rrl-more .svgicon{width:auto; height:12px; margin-left:var(--size-1);}
 
-.rancak-instagram-box{position:relative; width:100%;}
+.rancak-tiktok-box, .rancak-instagram-box{position:relative; width:100%;}
+.rancak-tiktok-box{max-height:400px;}
+.rancak-tiktok-box:before{padding-top:140%;}
 .rancak-instagram-box:before{padding-top:calc(66.66% + 160px);}
-.rancak-instagram-box iframe{position:absolute; top:0; left:0; width:100%; height:100%;}
+.rancak-tiktok-box iframe, .rancak-instagram-box iframe{position:absolute; top:0; left:0; width:100%; height:100%;}
 
 .rancak-related{padding:0 var(--size-4);}
 .rancak-related-list{display:grid; grid-gap:var(--size-1);}
-.rrl-link{display:grid; grid-template-columns:76px 1fr; align-items:center;}
+.rrl-link{display:grid; grid-template-columns:76px 1fr; align-items:center; border:1px solid;}
 .rrl-thumb:before{padding-top:100%;}
 .rrl-info{display:grid; grid-gap:var(--size-3); grid-auto-rows:min-content; padding:var(--size-2) var(--size-3);}
 .rrl-title{font-weight:bold; line-height:140%;}
@@ -107,6 +110,14 @@ header:after{content:''; display:block; position:absolute; bottom:0; left:0; wid
 
 
 
+@media screen and (min-width:392px) and (max-width:1023px){
+  .rancak-tiktok-box{max-height:500px;}
+}
+
+
+
+
+
 @media screen and (min-width:568px) and (max-width:1023px){
   .rancak-instagram-box:before{padding-top:calc(66.66% + 200px);}
 }
@@ -123,5 +134,5 @@ header:after{content:''; display:block; position:absolute; bottom:0; left:0; wid
   
   .rancak-content-box{position:sticky; z-index:1; top:var(--size-6); height:100%; max-height:calc(100vh - var(--size-6));}
   
-  .rancak-sidebar{padding:0; grid-auto-rows:min-content;}
+  .rancak-sidebar{grid-auto-rows:min-content;}
 }

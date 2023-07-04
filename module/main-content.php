@@ -1,7 +1,7 @@
 <div class="rancak-container">
   <div class="rancak-content">
     <section class="rancak-content-box">
-      <iframe width="560" height="315" class="rancak-player" src="https://www.youtube.com/embed/videoseries?list=PLX6nLBE9jIqj7J3zhDsCDl0eC2MWhRed5&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	  <iframe width="560" height="315" class="rancak-player" src="https://www.youtube.com/embed/1yS9nfx3MkI?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 	</section>
   </div>
   
@@ -17,9 +17,9 @@
       </a>
 	</section>
 	
-	<section class="rancak-instagram content_center">
-	  <div class="rancak-instagram-box flex_ori thumb-loading">
-	    <iframe class="lazyload" data-original="https://www.instagram.com/otogadget_official/embed" width="400" height="480" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+	<section class="rancak-tiktok content_center">
+	  <div class="rancak-tiktok-box flex_ori thumb-loading">
+	    <iframe class="lazyload" name="__tt_embed__v85127231318707740" sandbox="allow-popups allow-popups-to-escape-sandbox allow-scripts allow-top-navigation allow-same-origin" src="https://www.tiktok.com/embed/@otogadget?lang=en-US&amp;referrer=http%3A%2F%2Fog%2F"></iframe>
 	  </div>
 	</section>
 	
@@ -47,5 +47,11 @@
 		</a>
 	  </div>
 	</section>	
+	
+	<section class="rancak-instagram content_center">
+	  <div class="rancak-instagram-box flex_ori thumb-loading">
+	    <iframe class="lazyload" data-original="https://www.instagram.com/otogadget_official/embed" width="400" height="480" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+	  </div>
+	</section>
   </div>
 </div>

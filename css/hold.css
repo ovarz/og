@@ -3,10 +3,11 @@
   --bg-3:#000000;  
   --color-border-dark:0 0 0;
   --color-border-light:255 255 255;
-  --color-default-1:#BDBDBD; 
-  --color-default-2:#FFFFFF;
+  --color-default-1:#616161; 
+  --color-default-2:#212121;
   --color-default-3:#A9CEC2;
   --color-default-4:#697F85; 
+  --color-default-5:#E0E0E0; 
   --color-fb:#1877f2;
   --color-tw:#00acec;
   --color-wa:#2bb240;
@@ -54,11 +55,11 @@ border-top-left-radius:var(--rounded-2); border-bottom-left-radius:var(--rounded
 
 
 
-.rrl-link{background-color:var(--color-default-2); color:var(--bg-3) !important; border-radius:var(--rounded-1); overflow:hidden;}
-.rrl-link:hover{opacity:0.55;}
+.rrl-link{background-color:var(--bg-1); color:var(--color-default-2) !important; border-radius:var(--rounded-1); border-color:var(--color-default-5); overflow:hidden;}
+.rrl-link:hover{background-color:var(--color-default-5);}
 
 
 
-footer{display:grid; grid-gap:var(--size-1); background-color:var(--bg-1); padding:var(--size-4);}
+footer{display:grid; grid-gap:var(--size-1); background-color:var(--bg-menu); padding:var(--size-4); color:var(--bg-1);}
 .footer-socmed-link:hover{opacity:0.55;}
 .footer-copyright{text-align:center;}

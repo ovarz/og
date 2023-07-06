@@ -88,6 +88,7 @@ $("body,html").bind("touchstart touchmove scroll mousedown DOMMouseScroll mousew
   gtag('js', new Date());
   gtag('config', 'G-RB7L10PMTL');
 </script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1787127741844673" crossorigin="anonymous"></script>
 
 <body>
 <h1 class="hide">Otogadget | Situs yang doyan bahas-bahas ringan seputar otomotif dan gadget</h1>

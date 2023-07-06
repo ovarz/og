@@ -24,7 +24,7 @@
 	</section>
 	
 	<section class="rancak-related">
-	  <div class="rancak-related-title">Terkait :</div>
+	  <div class="rancak-related-title">Video Berikutnya :</div>
 	  <div class="rancak-related-list">
         <?php foreach($video_array as $video_list){ ?>
 		  <a aria-label="<?php echo($video_list['video_title']) ?>" title="<?php echo($video_list['video_title']) ?>" class="rrl-link" target="_blank"

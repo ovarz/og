@@ -11,7 +11,7 @@
 	  <h4 class="rancak-desc">
 	    <?php echo $video_desc; ?>
 	  </h4>
-      <a aria-label="Selengkapnya" title="Selengkapnya" class="rancak-more" target="_blank" href="<?php echo $video_link; ?>">
+      <a aria-label="Selengkapnya" title="Selengkapnya" class="rancak-more" target="_blank" href="https://youtu.be/<?php echo $video_content; ?>">
         <span>Selengkapnya</span>
         <?php require ($_SERVER['OG'].'img/icon/right-double.svg')?>
       </a>
@@ -28,7 +28,7 @@
 	  <div class="rancak-related-list">
         <?php foreach($video_array as $video_list){ ?>
 		  <a aria-label="<?php echo($video_list['video_title']) ?>" title="<?php echo($video_list['video_title']) ?>" class="rrl-link" target="_blank"
-		  href="<?php echo($video_list['video_link']) ?>">
+		  href="https://www.youtube.com/watch?v=<?php echo($video_list['video_link']) ?>">
 		    <div class="rrl-left">
               <div class="rrl-thumb flex_ori thumb-loading">
                 <img alt="<?php echo($video_list['video_title']) ?>" class="lazyload" data-original="img/content/content-<?php echo($video_list['video_id']) ?>.jpg" />

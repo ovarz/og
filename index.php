@@ -1,10 +1,15 @@
 <?php require ('inc/base.php')?>
 <?php 
-  $video_content='CTRYJg4TANg'; 
-  $video_title='Mobil Pilihan Netizen yang Budiman | Apa saja Mobil yang di Gunakan Oleh Netizen. Part 2'; 
-  $video_desc='Hi OG Friends, Kali ini kita lagi survey ke para netizen tentang mobil apa yang di gunakan dan kenapa menggunakan mobil tersebut. Yuk langsung aja tonton video kita.';
+  $video_content='I6-0N4xktGI'; 
+  $video_title='Mau Punya Honda Zoomer Tapi Duit Ngepas? Custom Aja!'; 
+  $video_desc='Hi OG Friends, Buat yang pengen punya Honda Zoomer atau Ruckus, tapi duit cekak alias terbatas, ada opsi untuk meng-custom motor matic seperti contohnya Honda spacy diubah jadi replika Honda Zoomer/Ruckus, simak aja Video ini sampai habis. Jangan lupa Likes, Comment dan Subscribe ya ... Thank U n Salut!';
   
   $video_array = array();
+  $video_array[]=array(
+    'video_id'=>'7',
+    'video_title'=>'Mobil Pilihan Netizen yang Budiman | Apa saja Mobil yang di Gunakan Oleh Netizen. Part 2',
+    'video_link'=>'CTRYJg4TANg'
+  );
   $video_array[]=array(
     'video_id'=>'6',
     'video_title'=>'Keeway V250Fi Custom Bobber Yang Kekar !',
@@ -24,11 +29,6 @@
     'video_id'=>'3',
     'video_title'=>'SUV Terkencang di Dunia | Apa saja SUV kencang yang ada di Dunia ?',
     'video_link'=>'ZTdgO5UR1tQ'
-  );
-  $video_array[]=array(
-    'video_id'=>'2',
-    'video_title'=>'Honda Ruckus Scooter 50 CC yang Lincah untuk di Dalam Kota | Honda Zoomer 50 CC',
-    'video_link'=>'CEjFN-I1_tc'
   );
 ?>
 <?php require ($_SERVER['OG'].'inc/meta.php')?>

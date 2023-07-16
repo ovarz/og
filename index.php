@@ -1,10 +1,20 @@
 <?php require ('inc/base.php')?>
 <?php 
-  $video_content='I6-0N4xktGI'; 
-  $video_title='Mau Punya Honda Zoomer Tapi Duit Ngepas? Custom Aja!'; 
-  $video_desc='Hi OG Friends, Buat yang pengen punya Honda Zoomer atau Ruckus, tapi duit cekak alias terbatas, ada opsi untuk meng-custom motor matic seperti contohnya Honda spacy diubah jadi replika Honda Zoomer/Ruckus, simak aja Video ini sampai habis. Jangan lupa Likes, Comment dan Subscribe ya ... Thank U n Salut!';
+  $video_content='N4upWFINjl4'; 
+  $video_title='Review Mercedes Benz W140 - S 300 | Sedan Para Pemimpin Dunia'; 
+  $video_desc='Kali ini kita mau review Mercedes Benz W140 atau Biasa di sebut S300, Sedan ini bukan lah seperti sedan pada umumnya, sudah pasti nyaman dan mewah, mau tau gimana review kita, langsung aja tonton video kita.';
   
   $video_array = array();
+  $video_array[]=array(
+    'video_id'=>'9',
+    'video_title'=>'Fakta Honda Zoomer atau Honda Ruckus si Skuter Eksibisionis',
+    'video_link'=>'85sNYxCvmoM'
+  );
+  $video_array[]=array(
+    'video_id'=>'8',
+    'video_title'=>'Mau Punya Honda Zoomer Tapi Duit Ngepas? Custom Aja!',
+    'video_link'=>'I6-0N4xktGI'
+  );
   $video_array[]=array(
     'video_id'=>'7',
     'video_title'=>'Mobil Pilihan Netizen yang Budiman | Apa saja Mobil yang di Gunakan Oleh Netizen. Part 2',
@@ -19,16 +29,6 @@
     'video_id'=>'5',
     'video_title'=>'Rekomendasi MPV Mewah di bawah 200 Juta | Mobil Keluarga yang Mewah',
     'video_link'=>'4b0ubc8qFk4'
-  );
-  $video_array[]=array(
-    'video_id'=>'4',
-    'video_title'=>'Burgman 200 ABS | Motor Big Matic Nyaman Dari Suzuki',
-    'video_link'=>'sC0AvbeoxCg'
-  );
-  $video_array[]=array(
-    'video_id'=>'3',
-    'video_title'=>'SUV Terkencang di Dunia | Apa saja SUV kencang yang ada di Dunia ?',
-    'video_link'=>'ZTdgO5UR1tQ'
   );
 ?>
 <?php require ($_SERVER['OG'].'inc/meta.php')?>

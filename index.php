@@ -1,10 +1,20 @@
 <?php require ('inc/base.php')?>
 <?php 
-  $video_content='N4upWFINjl4'; 
-  $video_title='Review Mercedes Benz W140 - S 300 | Sedan Para Pemimpin Dunia'; 
-  $video_desc='Kali ini kita mau review Mercedes Benz W140 atau Biasa di sebut S300, Sedan ini bukan lah seperti sedan pada umumnya, sudah pasti nyaman dan mewah, mau tau gimana review kita, langsung aja tonton video kita.';
+  $video_content='I0dF6qHOSXg'; 
+  $video_title='Ada Apa Aja di Event PARJO 2023? | Ngobrol Bareng Founder Parjo'; 
+  $video_desc='Hi OG Friends, Kali ini kita mau ngobrol sama sosok di balik event parjo @parjodotcom  pastinya kalian pensaran siapa sih sosok di balik event parjo. langsung aja tonton video kita ya OG Friends';
   
   $video_array = array();
+  $video_array[]=array(
+    'video_id'=>'11',
+    'video_title'=>'Keunggulan Chevrolet Orlando | MPV 7 Seater Asal Amerika',
+    'video_link'=>'7_SMl9UL-Es'
+  );
+  $video_array[]=array(
+    'video_id'=>'10',
+    'video_title'=>'Review Mercedes Benz W140 - S 300 | Sedan Para Pemimpin Dunia',
+    'video_link'=>'N4upWFINjl4'
+  );
   $video_array[]=array(
     'video_id'=>'9',
     'video_title'=>'Fakta Honda Zoomer atau Honda Ruckus si Skuter Eksibisionis',
@@ -19,16 +29,6 @@
     'video_id'=>'7',
     'video_title'=>'Mobil Pilihan Netizen yang Budiman | Apa saja Mobil yang di Gunakan Oleh Netizen. Part 2',
     'video_link'=>'CTRYJg4TANg'
-  );
-  $video_array[]=array(
-    'video_id'=>'6',
-    'video_title'=>'Keeway V250Fi Custom Bobber Yang Kekar !',
-    'video_link'=>'1yS9nfx3MkI'
-  );
-  $video_array[]=array(
-    'video_id'=>'5',
-    'video_title'=>'Rekomendasi MPV Mewah di bawah 200 Juta | Mobil Keluarga yang Mewah',
-    'video_link'=>'4b0ubc8qFk4'
   );
 ?>
 <?php require ($_SERVER['OG'].'inc/meta.php')?>

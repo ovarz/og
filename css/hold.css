@@ -58,6 +58,10 @@ border-top-left-radius:var(--rounded-2); border-bottom-left-radius:var(--rounded
 
 
 
+.rancak-instagram{border-color:var(--color-border); border-radius:var(--rounded-2); overflow:hidden;}
+
+
+
 footer{display:grid; grid-gap:var(--size-1); background-color:var(--bg-menu); padding:var(--size-4); color:var(--bg-1);}
 .footer-socmed-link:hover{opacity:0.55;}
 .footer-copyright{text-align:center;}

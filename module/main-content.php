@@ -17,12 +17,6 @@
       </a>
 	</section>
 	
-	<section class="rancak-tiktok content_center">
-	  <div class="rancak-tiktok-box flex_ori thumb-loading">
-	    <iframe title="OtoGadget Tiktok" class="lazyload" name="__tt_embed__v85127231318707740" sandbox="allow-popups allow-popups-to-escape-sandbox allow-scripts allow-top-navigation allow-same-origin" src="https://www.tiktok.com/embed/@otogadget?lang=en-US&amp;referrer=http%3A%2F%2Fog%2F"></iframe>
-	  </div>
-	</section>
-	
 	<section class="rancak-related">
 	  <div class="rancak-related-title">Video Berikutnya :</div>
 	  <div class="rancak-related-list">
@@ -45,6 +39,12 @@
 		  <span>Video Lainnya</span>
           <?php require ($_SERVER['OG'].'img/icon/right-double.svg')?>
 		</a>
+	  </div>
+	</section>
+	
+	<section class="rancak-tiktok content_center">
+	  <div class="rancak-tiktok-box flex_ori thumb-loading">
+	    <iframe title="OtoGadget Tiktok" class="lazyload" name="__tt_embed__v85127231318707740" sandbox="allow-popups allow-popups-to-escape-sandbox allow-scripts allow-top-navigation allow-same-origin" src="https://www.tiktok.com/embed/@otogadget?lang=en-US&amp;referrer=http%3A%2F%2Fog%2F"></iframe>
 	  </div>
 	</section>	
 	

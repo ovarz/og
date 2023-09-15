@@ -1,10 +1,15 @@
 <?php require ('inc/base.php')?>
 <?php 
-  $video_content='XOgOruuQLg4'; 
-  $video_title='Yamaha WR 155 Custom Vintage Rasa Baru...'; 
+  $video_content='NGKHSQUtkjk'; 
+  $video_title='Toyota Vios Tahun 2013, Sedan yang Masih Menjadi Incaran Modifikator !'; 
   $video_desc='Hi OG Friends, Kali ini kita mau membahas tentang motor Yamaha WR 155 Custom x Barokah Jaya, langsung aja tonton video kita tentang Yamaha WR 155.';
   
   $video_array = array();
+  $video_array[]=array(
+    'video_id'=>'27',
+    'video_title'=>'Yamaha WR 155 Custom Vintage Rasa Baru...',
+    'video_link'=>'XOgOruuQLg4'
+  );
   $video_array[]=array(
     'video_id'=>'26',
     'video_title'=>'5 Motor Jepang Legendaris yang Menginspirasi',
@@ -24,11 +29,6 @@
     'video_id'=>'23',
     'video_title'=>'Suzuki Katana Masih Banyak di Cari Orang ? SImak Alasannya !',
     'video_link'=>'-nE4YvfipAw'
-  );
-  $video_array[]=array(
-    'video_id'=>'22',
-    'video_title'=>'Daihatsu Feroza Jeep Tahun 90an yang Cocok untuk Off Road',
-    'video_link'=>'06ftvFY8do4'
   );
 ?>
 <?php require ($_SERVER['OG'].'inc/meta.php')?>

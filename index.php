@@ -1,10 +1,15 @@
 <?php require ('inc/base.php')?>
 <?php 
-  $video_content='efsmrMWIyAQ'; 
-  $video_title='Triumph Street Scrambler 900, Motor Gahar Pelahap Segala Medan'; 
-  $video_desc='Hi OG Friends pecinta motor di Indonesia, dalam video kita kali ini, kita akan mengupas soal Triumph Street Scrambler 900. Triumph Street Scrambler 900 adalah motor klasik modern yang cocok untuk pengendara pemula maupun berpengalaman. Motor ini memiliki mesin 900cc parallel-twin yang bertenaga dan responsif, serta handling yang mudah dikendalikan. Dalam video ini, kita akan membahas secara lengkap tentang Triumph Street Scrambler 900, mulai dari spesifikasi, fitur, hingga review berkendara. Simak aja langsung ya!';
+  $video_content='vjsC9Q2flnQ'; 
+  $video_title='Skuter Matic Retro yang Keren dan Stylish'; 
+  $video_desc='Hi OG Friends, Buat para penggemar Skuter, khususnya Skuter Matic Retro Style di Indonesia. Tentunya nama Vespa akan pertama kali muncul di pikiran kita. Berikutnya selain Vespa, nama2 seperti Yamaha Fino, Honda Scoopy lalu Yamaha Fazzio dan Yamaha Grand Filano bakal ikutan muncul di benak kita dalam segmentasi harga yang lebih rendah dibanding Vespa.';
   
   $video_array = array();
+  $video_array[]=array(
+    'video_id'=>'32',
+    'video_title'=>'Triumph Street Scrambler 900, Motor Gahar Pelahap Segala Medan',
+    'video_link'=>'efsmrMWIyAQ'
+  );
   $video_array[]=array(
     'video_id'=>'31',
     'video_title'=>'Alasan Toyota VIOS Masih di Cari Anak Muda !',
@@ -24,11 +29,6 @@
     'video_id'=>'28',
     'video_title'=>'Toyota Vios Tahun 2013, Sedan yang Masih Menjadi Incaran Modifikator !',
     'video_link'=>'NGKHSQUtkjk'
-  );
-  $video_array[]=array(
-    'video_id'=>'27',
-    'video_title'=>'Yamaha WR 155 Custom Vintage Rasa Baru...',
-    'video_link'=>'XOgOruuQLg4'
   );
 ?>
 <?php require ($_SERVER['OG'].'inc/meta.php')?>

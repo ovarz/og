@@ -25,7 +25,7 @@
 		  href="https://www.youtube.com/watch?v=<?php echo($video_list['video_link']) ?>">
 		    <div class="rrl-left">
               <div class="rrl-thumb flex_ori thumb-loading">
-                <img alt="<?php echo($video_list['video_title']) ?>" class="lazyload" data-original="img/content/content-<?php echo($video_list['video_id']) ?>.jpg" />
+                <img alt="<?php echo($video_list['video_title']) ?>" class="lazyload" data-original="img/content/content-<?php echo($video_list['video_id']) ?>.webp" />
               </div>
 			</div>
 			<div class="rrl-info">
